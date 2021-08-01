@@ -1,0 +1,76 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Visualizar código de desconto",
+        "description": "",
+        "id": "receber-cupom-de-desconto;visualizar-código-de-desconto",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 4117121100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que estou no site da QAzando",
+            "match": {
+              "location": "DescontosStep.acessar_site_qazando()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 375767400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho o email",
+            "match": {
+              "location": "DescontosStep.preencho_o_email()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2190988200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico em ganhar cupom",
+            "match": {
+              "location": "DescontosStep.clico_em_ganhar_cupom()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 59806700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "devo visualizar o codigo de desconto",
+            "match": {
+              "location": "DescontosStep.devo_visualizar_o_codigo_de_desconto()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Receber cupom de desconto",
+    "description": "Eu como usuário\r\nquero receber um cupom de desconto\r\npara comprar um curso com valor reduzido",
+    "id": "receber-cupom-de-desconto",
+    "keyword": "Funcionalidade",
+    "uri": "desconto.feature"
+  }
+]

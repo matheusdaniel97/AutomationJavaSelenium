@@ -1,0 +1,82 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Visualizar código de desconto",
+        "description": "",
+        "id": "receber-cupom-de-desconto;visualizar-código-de-desconto",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 10137488100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que estou no site da QAzando",
+            "match": {
+              "location": "DescontosStep.acessar_site_qazando()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 492938300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho o email com \"ganzenmuller1997@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ganzenmuller1997@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "DescontosStep.preencho_o_email_com(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2309574200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico em ganhar cupom",
+            "match": {
+              "location": "DescontosStep.clico_em_ganhar_cupom()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 59882800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "devo visualizar o codigo de desconto",
+            "match": {
+              "location": "DescontosStep.devo_visualizar_o_codigo_de_desconto()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Receber cupom de desconto",
+    "description": "Eu como usuário\r\nquero receber um cupom de desconto\r\npara comprar um curso com valor reduzido",
+    "id": "receber-cupom-de-desconto",
+    "keyword": "Funcionalidade",
+    "uri": "desconto.feature"
+  }
+]
